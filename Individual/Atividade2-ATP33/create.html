@@ -8,17 +8,40 @@
         <hr>
         <h2>Editando cadastro</h2>
 
-        <form>
-            <label>Id: </label><input type="number"/><br />
-            <label>Nome: </label><input type="text" /> <br />
-            <label>Sobrenome: </label><input type="text" /> <br />
-            <label>Origem: </label><input type="text" /> <br />
-            <label>Destino: </label><input type="text" /> <br />
-            <label>Ida: </label><input type="text" /> <br />
-            <label>Volta *Opcional*: </label><input type="text" /> <br />
-            <input type="submit" value="Cadastrar">
-        </form>
-        <a href="index.html">Retornar ao menu</a>
+        <div class ="box">
+            
+            <form action="form.php" method= "POST" class="main-form">
+                <div class="form-group">
+                <label>Id: </label><input type="number"/><br />
+                </div>
+                <div class="form-group">
+                <label>Nome: </label><input type="text" /> <br />
+                </div>
+                <div class="form-group">
+                <label>Sobrenome: </label><input type="text" /> <br />
+                </div>
+                <div class="form-group">
+                <label>Origem: </label><input type="text" /> <br />
+                </div>
+                <div class="form-group">
+                <label>Destino: </label><input type="text" /> <br />
+                </div>
+                <div class="form-group">
+                <label>Ida: </label><input type="text" /> <br />
+                </div>
+                <div class="form-group">
+                <label>Volta *Opcional*: </label><input type="text" /> <br />
+                </div>
+                <div class="form-group">
+                <input class="button" type="submit" value="Cadastrar">
+                <br /><br />
+                <a href="index.html">Retornar ao menu</a>
+                </div>
+            </form>
+    
+    </div>
 
+       
+        
     </body>
 </html>

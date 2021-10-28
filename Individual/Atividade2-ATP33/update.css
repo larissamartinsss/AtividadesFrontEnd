@@ -1,44 +1,40 @@
+* {
+    box-sizing: border-box ;
+}
+
 body{
-    background: #5f8167;
+    background: #f5813f;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
-div{
-    background: #fff; 
-    width: 50%;
-    margin: 50px auto 20px;
-    padding: 20px 50px;
-    text-align: center;
-    border-radius: 10px;
-}
-h1{
-    color: blue;
-    text-transform: uppercase;
-    font-size: 26px;
+.button{
+    padding: 15px;
+    background-color: black;
+    color: #eee;
+    border: none;
+
 }
 
-table{
-    width: 90%;
-    margin: 40px auto 20px;
-    border: 1px #000 solid;
-    border-collapse: collapse;
-}
-table thead{
-    background: #ccc;
-    font-size: 14px;
-    text-transform: uppercase;
-    height: 30px;
-}
-table thead th{
-    border: 1px solid #000;
-}
-table tbody tr{
-    height: 25px;
-    font-size: 14px;
+.box {
+    width: 80%;
+    margin: auto;
 }
 
-table tbody tr td{
-    padding: 8px 10px;
-    border: 1px solid #000;
+.form-group{
+    padding-left: 20px;
 }
+
+.main-form .form-group {
+    padding-bottom: 10px;
+}
+
+.main-form .form-group input{
+    padding: 8px;
+}
+
+.main-form .form-group label {
+    display: block;
+}
+
+
