@@ -37,4 +37,11 @@ body{
     display: block;
 }
 
-
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 231, 231);
+    width:80%;
+    margin:auto;
+    padding:50px;
+    border-bottom: 10px solid red;
+}
