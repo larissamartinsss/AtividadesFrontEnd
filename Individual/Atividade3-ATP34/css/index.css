@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box ;
+}
+
+body{
+    background-color: rgb(51, 99, 63);
+    
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 231, 231);
+    width:80%;
+    margin:auto;
+    padding:50px;
+    border-bottom: 10px solid red;
+}
+
+.main-aside h2{
+    color: white;
+    text-align: center;
+}
+
+.main-aside ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.main-aside ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-aside ul a:hover{
+    color: red;
+}
+
+.main-aside ul a:visited {
+    color: rgb(0, 0, 0);
+}
