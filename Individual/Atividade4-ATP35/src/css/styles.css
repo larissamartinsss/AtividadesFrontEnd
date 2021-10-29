@@ -49,8 +49,16 @@ nav {
      font-size: 30px;
  }
 
+ .hero-area{
+     display: flex;
+     height: 100%;
+     justify-content: space-between;
+     align-items: center;
+ }
+
 .hero-text{
-    margin-left: 40px;
+    margin-left: 80px;
+    margin-bottom: 200px;
 }
 
 .button{
@@ -63,4 +71,16 @@ nav {
     font-size: 30px;
     padding-top: 5px;
     margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #ef744b;
+}
+.button:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
 }
