@@ -8,21 +8,20 @@ body {
 }
 
 section {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: rgb(160, 86, 86);
     height: 100vh;
     color: white;
     font-size: 40px;
-
 }
 
 footer {
     height: 500px;
-    background-color: black;
-    color: white;
+    background-color: rgb(160, 86, 86);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 80px;
 }
@@ -196,7 +195,7 @@ a {
     ul {
         display: none;
         background-color: #2b2c38;
-        margin: 0ppx;
+        margin: 0px;
     }
 
     ul.show {
@@ -213,3 +212,5 @@ a {
         display: none;
     }
 }
+
+
