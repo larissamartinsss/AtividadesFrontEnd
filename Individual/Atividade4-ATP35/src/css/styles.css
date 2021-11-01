@@ -92,3 +92,17 @@ nav {
 .social{
     margin: 18px;
 }
+
+.sub-section {
+   display: flex; 
+   justify-content: space-around;
+   padding: 80px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.myself{
+    width: 300px;
+}
