@@ -17,6 +17,9 @@ section {
 footer {
     height: 500px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {   
@@ -41,10 +44,14 @@ nav {
      margin: 0;
  }
 
+ h2 {
+     font-size: 50px;
+ }
+
  p{
      margin: 0;
-     font-weight: 300;
      font-size: 30px;
+     font-weight: 300;
  }
 
  .subtext{
@@ -89,7 +96,8 @@ nav {
 }
 
 .logo{
-    height: 200px;
+    height: 150px;
+    margin: 10px;
 }
 
 .social{
@@ -109,13 +117,10 @@ nav {
     padding: 80px;
 }
 
-h2{
-    font-size: 50px;
-}
-
 .myself{
     width: 300px;
     border-radius: 150px;
+    margin-left: 80px;
 }
 
 .headshot{
@@ -135,10 +140,17 @@ h2{
     justify-content: space-around;
 }
 
-.project-img{
-    margin-top: 50px;
-    width: 250px;
-    border-radius: 125px;
+@media only screen and (max-width: 1000px) {
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-img {
+    margin-top: 45px;
+    width: 190px;
+    justify-items: auto;
 }
 
 hr{
@@ -146,7 +158,53 @@ hr{
     margin-right: 20px;
 }
 
-.project-link{
+.project-link {
     text-decoration: none;
     color: coral;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0ppx;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
+
+    .logo {
+        display: none;
+    }
 }
