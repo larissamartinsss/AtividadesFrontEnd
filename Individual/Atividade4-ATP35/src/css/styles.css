@@ -3,9 +3,7 @@ body {
 }
 
 section {
-    height: 500px;
     background-color: white;
-    border: solid black 1px;
 }
 
 .hero {
@@ -99,10 +97,34 @@ nav {
    padding: 80px;
 }
 
+.sub-section-alt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
 h2{
     font-size: 50px;
 }
 
 .myself{
     width: 300px;
+    border-radius: 150px;
+}
+
+.headshot{
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 200px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
 }
