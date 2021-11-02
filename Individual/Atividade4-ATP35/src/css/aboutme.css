@@ -31,16 +31,16 @@ nav {
  }
 
  ul {
-     display: flex;
-     list-style-type: none;
-     width: 500px;
-     justify-content: space-around;
-     font-size: 23px;
- }
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-around;
+    font-size: 24px;
+}
 
- li {
-     text-decoration: none;
- }
+li {
+    text-decoration: none;
+}
 
  h1 {
      font-size: 90px;
