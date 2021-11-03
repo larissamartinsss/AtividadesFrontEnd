@@ -17,13 +17,13 @@
         <nav>
             <img class="logo" src="/src/images/logo1.png" alt="@lariscode"/>
         </a>
-            <ul id="nav-list">
-                <li><a href="/src/html/index.html">Home |</a></li>
-                <li><a href="/src/html/about-me.html">About me |</a></li>
-                <li><a href="/src/html/skills.html">Skills | </a></li>
-                <li><a href="/src/html/projects.html">Projects |</a></li>
-                <li><a href="/src/html/contact-me.html">Contact me </a></li>
-            </ul>
+        <ul id="nav-list">
+            <li><a href="/src/html/index.html">Home |</a></li>
+            <li onclick="aboutme()">About me</li>
+            <li><a href="/src/html/skills.html">Skills | </a></li>
+            <li><a href="/src/html/projects.html">Projects |</a></li>
+            <li><a href="/src/html/contact-me.html">Contact me </a></li>
+        </ul>
             <button class="hamburger" id="hamburger">
                 <i class="fas fa-bars"></i>
             </button>
@@ -32,7 +32,7 @@
             <div class="hero-text">
                 <h1>Larissa Martins</h1>
                 <p>Full Stack Developer</p>
-                <div class="button"><a href="/src/html/about-me.html">About me</a></div>
+                <div class="button"><a href="#about-me">About me</a></div>
             </div>
             <div class="socials">
                 <!--Instagram:--> 
@@ -52,7 +52,56 @@
         </div>
 
     </section>
-  
+    <section class = "sub-section" id="about-me">
+        <div class = "info">
+            <iframe id="frame" frameborder="0"></iframe>
+        </div>
+    </section>
+    <section class="sub-section-alt" id="my-projects">
+        <h2>Projects</h2>
+        <div class ="project-container">
+            <div class ="project-card">
+                <img class="project-img" src="/src/images/project1.jpg" alt="Project one image"/>
+                <h3>Project One</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed making this project. </p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/larissamartinsss">View here</a></p>
+            </div>
+            <div class ="project-card">
+                <img class="project-img" src="/src/images/project2.jpg" alt="Project one image"/>
+                <h3>Project Two</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed making this project. </p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/larissamartinsss">View here</a></p>
+            </div>
+            <div class ="project-card">
+                <img class="project-img" src="/src/images/project3.jpg" alt="Project one image"/>
+                <h3>Project Three</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed making this project. </p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/larissamartinsss">View here</a></p>
+            </div>
+            <div class ="project-card">
+                <img class="project-img" src="/src/images/project4.jpg" alt="Project one image"/>
+                <h3>Project Four</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed making this project. </p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/larissamartinsss">View here</a></p>
+            </div>
+        </div>
+
+    </section>
+    <footer id= "contact-me">
+        <h2>Contact me here: </h2>
+        <form action="https://formsubmit.co/larissamartins.job@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New email wooo!">
+            <input type="email" name="email" placeholder="Your email Address" required>
+            <input type="hidden" name= "_next" value="http://127.0.0.1:5500/src/html/thankyou.html">
+            <input type="text" name="message" placeholder="Write your message here" required>
+            <button type="submit">Send :)</button>
+       </form>
+    </footer>
    <script src="/src/js/script.js"></script>
 </body>
 </html>
